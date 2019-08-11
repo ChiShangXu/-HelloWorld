@@ -14,7 +14,7 @@
 */
 package day03;
 public class AriExer {
-	public static void main(String[] args) {
+	public static void main(String[] args) {   
 		
 		int number = 154;
 		int bai = number / 100;
