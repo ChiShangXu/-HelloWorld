@@ -48,11 +48,7 @@ public class SwitchCaseTest2 {
 			sumDay += day;
 		}
 		System.out.println("2019年" + month + "月" + day + "日是当年的第" + sumDay + "天");
-		
-			
-		
-		
-		
+	
 	}
 
 }
