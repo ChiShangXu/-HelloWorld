@@ -47,14 +47,7 @@ public class ScannerTest {
 		char genderChar = gender.charAt(0);//获取索引为0位置上的字符
 		System.out.println(genderChar);
 		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 	}
 
