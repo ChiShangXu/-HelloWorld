@@ -61,15 +61,13 @@ public class VarableTest1 {
 		
 		char c3 ='\u0043';
 		System.out.println(c3);
-		
-		
+				
 		//布尔型：boolean；
 		//①只能取两个值之一：true 、 false
 		boolean bb1 = true;
 		//②常常在条件判断、循环结构中使用；
 		System.out.println(bb1);
-		
-		
+			
 		boolean isMarried = true;
 		if(isMarried) {
 			System.out.println("你不能参加单身party了！很遗憾");
@@ -80,13 +78,3 @@ public class VarableTest1 {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-

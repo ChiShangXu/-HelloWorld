@@ -18,16 +18,13 @@ public class CompareTest {
 		
 		System.out.println(i1 == n1);//false
 		System.out.println(i1 = n1);//20
-		
-		
+			
 		boolean b1 = true;
 		boolean b2 = false;
 		System.out.println(b1 == b2);//false
 		System.out.println(b2 = b1);//true
 		
-		
-		
-		
+
 	}
 
 }

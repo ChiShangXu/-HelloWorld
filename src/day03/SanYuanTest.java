@@ -1,6 +1,6 @@
 /*
 运算符之六：三元运算符
-1. 结构：（条件表达式）？，表达式1：表达式2；
+1. 结构：（条件表达式）？表达式1：表达式2；
 2. 说明
 ① 条件表达式的结果为boolean类型
 ② 根据条件表达式真或假，决定执行表达式1，还是表达式2；
@@ -20,16 +20,14 @@ public class SanYuanTest {
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-
 		
 		//获取两个整数的较大值
-		int i = 12;
-		int n = 11;
+		int i = 11;
+		int n = 12;
 		
 		int max3 = (i > n)? i : n;
 		System.out.println(max3);
-		
-		
+			
 		n = 12;
 		String maxStr = (i > n)? "i大" : ((i == n)? "i和n相等" : "n大");
 		System.out.println(maxStr);
@@ -50,8 +48,7 @@ public class SanYuanTest {
 		}else{
 			System.out.println("最大值为： " + n2);
 		}
-		
-		
+			
 		int num1 = 12;
 		int num2 = 30;
 		int num3 = -10;
@@ -64,14 +61,6 @@ public class SanYuanTest {
 			max = num3;
 		}
 		System.out.println("三个数中的最大数为： " + max);
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 
