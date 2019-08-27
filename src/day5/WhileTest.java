@@ -21,7 +21,7 @@ while(②){
 1.写while循环千万小心不要丢了迭代条件，一旦丢了，就可能导致死循环，
 2.写程序，要避免出现死循环，
 3.for循环和while循环是可以相互转换的!
-
+      区别：for循环和while循环的初始条件部分作用范围不同。
 
 
 */
@@ -32,12 +32,13 @@ public class WhileTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//遍历100以内的所有偶数
 		int i = 0;
 		while(i <= 100) {
 			if(i % 2 == 0) {
 			System.out.println(i);	
 			}
-			i++;
+			++i;
 		}
 	}
 

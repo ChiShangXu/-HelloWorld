@@ -4,10 +4,12 @@ public class luojiyunsuan {
 
 	public static void main(String[] args) {
 
-		int i = 2;
+		int i = 3;
 		int a = 2 + i++;
 		int b = i + i++;
-		System.out.println(i + "" + a + "" + b + "");
+		System.out.println(i + "-" + a + "-" + b);
+		
+		
 	}
 
 }

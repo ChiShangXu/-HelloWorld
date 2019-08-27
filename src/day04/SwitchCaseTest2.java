@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class SwitchCaseTest2 {
 
-	@SuppressWarnings({ "resource", "unused" })
+	@SuppressWarnings({ "resource" })
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
