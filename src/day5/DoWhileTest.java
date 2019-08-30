@@ -46,25 +46,6 @@ public class DoWhileTest {
 		System.out.println("总和为： " + sum);
 		System.out.println("个数为： " + count);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
 
+	}
 }

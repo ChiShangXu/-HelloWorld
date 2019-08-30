@@ -26,7 +26,6 @@ public class PrimeNumberTest2 {
 			count++;				
 		}				
 
-		
 		//获取当前时间距离1970-01-01 00:00:00的毫秒数
 		long end2 = System.currentTimeMillis();
 		System.out.println("所花费的时间为: " + (end2 - start1));
